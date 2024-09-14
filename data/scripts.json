@@ -1,0 +1,635 @@
+{
+  "conversations": [
+    {
+      "id": "gym-sports-center",
+      "title": "Signing Up for a Gym Membership",
+      "location": "Gym / Sports Center",
+      "level": "A2",
+      "languagePairs": [
+        {
+          "source": "en-US",
+          "target": "fr-FR",
+          "name": "English (US) to French (France)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "fr-FR-DeniseNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "es-MX",
+          "name": "English (US) to Spanish (Mexico)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "es-MX-DaliaNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "es-ES",
+          "name": "English (US) to Spanish (Spain)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "es-ES-ElviraNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "th-TH",
+          "name": "English (US) to Thai (Thailand)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "th-TH-PremwadeeNeural"
+        }
+      ],
+      "messages": [
+        {
+          "id": 1,
+          "speaker": "customer",
+          "text": {
+            "en-US": "Hi, I'm interested in joining the gym.",
+            "fr-FR": "Bonjour, je voudrais m'inscrire à la salle de sport.",
+            "es-MX": "Hola, me interesa inscribirme al gimnasio.",
+            "es-ES": "Hola, estoy interesado en apuntarme al gimnasio.",
+            "th-TH": "สวัสดีครับ/ค่ะ ผม/ดิฉันสนใจสมัครสมาชิกฟิตเนสครับ/ค่ะ"
+          }
+        },
+        {
+          "id": 2,
+          "speaker": "gym-staff",
+          "text": {
+            "en-US": "Great! We have monthly and annual plans. What are you looking for?",
+            "fr-FR": "Super ! Nous avons des forfaits mensuels et annuels. Que recherchez-vous ?",
+            "es-MX": "¡Genial! Tenemos planes mensuales y anuales. ¿Qué te interesa?",
+            "es-ES": "¡Estupendo! Tenemos planes mensuales y anuales. ¿Qué te interesa?",
+            "th-TH": "ดีเลยครับ/ค่ะ! เรามีแผนรายเดือนและรายปี คุณสนใจแบบไหนครับ/คะ?"
+          }
+        },
+        {
+          "id": 3,
+          "speaker": "customer",
+          "text": {
+            "en-US": "Monthly for now. What's included?",
+            "fr-FR": "Mensuel pour l'instant. Qu'est-ce qui est inclus ?",
+            "es-MX": "Mensual por ahora. ¿Qué incluye?",
+            "es-ES": "Mensual de momento. ¿Qué incluye?",
+            "th-TH": "ขอแบบรายเดือนก่อนครับ/ค่ะ มีอะไรรวมอยู่ในแพ็คเกจบ้างครับ/คะ?"
+          }
+        },
+        {
+          "id": 4,
+          "speaker": "gym-staff",
+          "text": {
+            "en-US": "Full access to equipment and classes. Want a quick tour?",
+            "fr-FR": "Accès complet aux équipements et aux cours. Voulez-vous faire un rapide tour ?",
+            "es-MX": "Acceso completo a equipos y clases. ¿Quieres un recorrido rápido?",
+            "es-ES": "Acceso completo a máquinas y clases. ¿Quieres que te lo enseñe rápidamente?",
+            "th-TH": "ใช้อุปกรณ์และเข้าคลาสได้ทั้งหมดครับ/ค่ะ อยากเดินดูรอบๆ แบบเร็วๆ ไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 5,
+          "speaker": "customer",
+          "text": {
+            "en-US": "Yes, please. Do you offer personal training?",
+            "fr-FR": "Oui, s'il vous plaît. Proposez-vous des séances avec un coach personnel ?",
+            "es-MX": "Sí, por favor. ¿Ofrecen entrenamiento personal?",
+            "es-ES": "Sí, por favor. ¿Ofrecéis entrenamiento personal?",
+            "th-TH": "ขอดูหน่อยครับ/ค่ะ แล้วมีบริการเทรนเนอร์ส่วนตัวไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 6,
+          "speaker": "gym-staff",
+          "text": {
+            "en-US": "Yes, we do. It's an additional fee. Interested?",
+            "fr-FR": "Oui, c'est possible. C'est un supplément. Ça vous intéresse ?",
+            "es-MX": "Sí, lo ofrecemos. Es un costo adicional. ¿Te interesa?",
+            "es-ES": "Sí, lo ofrecemos. Tiene un coste adicional. ¿Te interesa?",
+            "th-TH": "มีครับ/ค่ะ แต่มีค่าใช้จ่ายเพิ่มเติม สนใจไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 7,
+          "speaker": "customer",
+          "text": {
+            "en-US": "Maybe later. How much is the monthly membership?",
+            "fr-FR": "Peut-être plus tard. Combien coûte l'abonnement mensuel ?",
+            "es-MX": "Quizás después. ¿Cuánto cuesta la membresía mensual?",
+            "es-ES": "Quizás más adelante. ¿Cuánto cuesta la cuota mensual?",
+            "th-TH": "เดี๋ยวค่อยว่ากันครับ/ค่ะ แล้วค่าสมาชิกรายเดือนเท่าไหร่ครับ/คะ?"
+          }
+        },
+        {
+          "id": 8,
+          "speaker": "gym-staff",
+          "text": {
+            "en-US": "It's $50 per month. Ready to sign up?",
+            "fr-FR": "C'est 50 euros par mois. Prêt à vous inscrire ?",
+            "es-MX": "Son 1000 pesos al mes. ¿Listo para inscribirte?",
+            "es-ES": "Son 50 euros al mes. ¿Listo para apuntarte?",
+            "th-TH": "1,500 บาทต่อเดือนครับ/ค่ะ พร้อมสมัครเลยไหมครับ/คะ?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "clothing-store",
+      "title": "Returning an Item",
+      "location": "Clothing Store",
+      "level": "A2",
+      "languagePairs": [
+        {
+          "source": "en-US",
+          "target": "fr-FR",
+          "name": "English (US) to French (France)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "fr-FR-DeniseNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "es-MX",
+          "name": "English (US) to Spanish (Mexico)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "es-MX-DaliaNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "es-ES",
+          "name": "English (US) to Spanish (Spain)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "es-ES-ElviraNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "th-TH",
+          "name": "English (US) to Thai (Thailand)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "th-TH-PremwadeeNeural"
+        }
+      ],
+      "messages": [
+        {
+          "id": 1,
+          "speaker": "customer",
+          "text": {
+            "en-US": "Hi, I'd like to return this shirt.",
+            "fr-FR": "Bonjour, je voudrais retourner cette chemise.",
+            "es-MX": "Hola, quisiera devolver esta camisa.",
+            "es-ES": "Hola, me gustaría devolver esta camisa.",
+            "th-TH": "สวัสดีครับ/ค่ะ ผม/ดิฉันต้องการคืนเสื้อเชิ้ตตัวนี้ครับ/ค่ะ"
+          }
+        },
+        {
+          "id": 2,
+          "speaker": "salesperson",
+          "text": {
+            "en-US": "Sure, what's the reason for the return?",
+            "fr-FR": "Bien sûr, quelle est la raison du retour ?",
+            "es-MX": "Claro, ¿cuál es el motivo de la devolución?",
+            "es-ES": "Claro, ¿cuál es el motivo de la devolución?",
+            "th-TH": "ได้ครับ/ค่ะ มีเหตุผลอะไรในการคืนสินค้าครับ/คะ?"
+          }
+        },
+        {
+          "id": 3,
+          "speaker": "customer",
+          "text": {
+            "en-US": "It's too small. Can I exchange it for a larger size?",
+            "fr-FR": "Elle est trop petite. Je peux l'échanger contre une taille plus grande ?",
+            "es-MX": "Es muy pequeña. ¿Puedo cambiarla por una talla más grande?",
+            "es-ES": "Es demasiado pequeña. ¿Puedo cambiarla por una talla más grande?",
+            "th-TH": "มันเล็กเกินไปครับ/ค่ะ ขอเปลี่ยนเป็นไซส์ใหญ่กว่านี้ได้ไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 4,
+          "speaker": "salesperson",
+          "text": {
+            "en-US": "Of course. Let me check if we have your size in stock.",
+            "fr-FR": "Bien sûr. Laissez-moi vérifier si nous avons votre taille en stock.",
+            "es-MX": "Por supuesto. Déjame revisar si tenemos tu talla en existencia.",
+            "es-ES": "Por supuesto. Déjame comprobar si tenemos tu talla en stock.",
+            "th-TH": "ได้แน่นอนครับ/ค่ะ ขอเช็คก่อนนะคะว่ามีไซส์ของคุณในสต็อกไหม"
+          }
+        },
+        {
+          "id": 5,
+          "speaker": "salesperson",
+          "text": {
+            "en-US": "I'm sorry, we're out of the next size up. Would you like a refund instead?",
+            "fr-FR": "Je suis désolé, nous n'avons plus la taille au-dessus. Voulez-vous plutôt un remboursement ?",
+            "es-MX": "Lo siento, no tenemos la siguiente talla. ¿Prefieres un reembolso?",
+            "es-ES": "Lo siento, no nos queda la talla siguiente. ¿Prefieres que te devolvamos el dinero?",
+            "th-TH": "ขอโทษด้วยครับ/ค่ะ ไซส์ที่ใหญ่กว่านี้หมดแล้ว คุณต้องการคืนเงินแทนไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 6,
+          "speaker": "customer",
+          "text": {
+            "en-US": "Oh, that's a shame. Yes, I'll take the refund then.",
+            "fr-FR": "Oh, c'est dommage. Oui, je vais prendre le remboursement alors.",
+            "es-MX": "Ah, qué lástima. Sí, entonces tomaré el reembolso.",
+            "es-ES": "Vaya, qué pena. Sí, entonces prefiero que me devolváis el dinero.",
+            "th-TH": "อ้อ น่าเสียดายจัง งั้นขอคืนเงินแล้วกันครับ/คะ"
+          }
+        },
+        {
+          "id": 7,
+          "speaker": "salesperson",
+          "text": {
+            "en-US": "Alright, I can process that for you now. Do you have the receipt?",
+            "fr-FR": "D'accord, je peux faire ça tout de suite. Avez-vous le reçu ?",
+            "es-MX": "Está bien, puedo procesarlo ahora. ¿Tienes el recibo?",
+            "es-ES": "De acuerdo, puedo gestionarlo ahora mismo. ¿Tienes el ticket?",
+            "th-TH": "ได้ครับ/ค่ะ ผม/ดิฉันจะดำเนินการให้เดี๋ยวนี้เลย คุณมีใบเสร็จไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 8,
+          "speaker": "customer",
+          "text": {
+            "en-US": "Yes, here it is. Thanks for your help.",
+            "fr-FR": "Oui, le voici. Merci pour votre aide.",
+            "es-MX": "Sí, aquí está. Gracias por tu ayuda.",
+            "es-ES": "Sí, aquí lo tienes. Gracias por tu ayuda.",
+            "th-TH": "มีครับ/ค่ะ นี่ครับ/ค่ะ ขอบคุณสำหรับความช่วยเหลือนะครับ/คะ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "supermarket",
+      "title": "Shopping at a Supermarket",
+      "location": "Supermarket / Local Market",
+      "level": "A2",
+      "languagePairs": [
+        {
+          "source": "en-US",
+          "target": "fr-FR",
+          "name": "English (US) to French (France)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "fr-FR-DeniseNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "es-MX",
+          "name": "English (US) to Spanish (Mexico)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "es-MX-DaliaNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "es-ES",
+          "name": "English (US) to Spanish (Spain)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "es-ES-ElviraNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "th-TH",
+          "name": "English (US) to Thai (Thailand)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "th-TH-PremwadeeNeural"
+        }
+      ],
+      "messages": [
+        {
+          "id": 1,
+          "speaker": "customer",
+          "text": {
+            "en-US": "Excuse me, where can I find fresh vegetables?",
+            "fr-FR": "Excusez-moi, où puis-je trouver des légumes frais ?",
+            "es-MX": "Disculpe, ¿dónde puedo encontrar verduras frescas?",
+            "es-ES": "Perdone, ¿dónde puedo encontrar verduras frescas?",
+            "th-TH": "ขอโทษครับ/ค่ะ ผักสดอยู่ตรงไหนครับ/คะ?"
+          }
+        },
+        {
+          "id": 2,
+          "speaker": "employee",
+          "text": {
+            "en-US": "They're in aisle 3, on your right. Anything specific you're looking for?",
+            "fr-FR": "Elles sont dans l'allée 3, sur votre droite. Vous cherchez quelque chose en particulier ?",
+            "es-MX": "Están en el pasillo 3, a tu derecha. ¿Buscas algo en específico?",
+            "es-ES": "Están en el pasillo 3, a su derecha. ¿Busca algo en concreto?",
+            "th-TH": "อยู่ที่ช่องทางเดินที่ 3 ทางขวามือครับ/ค่ะ คุณกำลังมองหาอะไรเป็นพิเศษไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 3,
+          "speaker": "customer",
+          "text": {
+            "en-US": "Yes, I need some ripe tomatoes for a salad. Do you have any?",
+            "fr-FR": "Oui, j'ai besoin de tomates mûres pour une salade. Vous en avez ?",
+            "es-MX": "Sí, necesito unos jitomates maduros para una ensalada. ¿Tienen?",
+            "es-ES": "Sí, necesito unos tomates maduros para una ensalada. ¿Tienen?",
+            "th-TH": "ครับ/ค่ะ ผม/ดิฉันต้องการมะเขือเทศสุกสำหรับทำสลัด มีไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 4,
+          "speaker": "employee",
+          "text": {
+            "en-US": "Absolutely! We just got a fresh batch this morning. They're at the end of aisle 3.",
+            "fr-FR": "Absolument ! Nous venons d'en recevoir ce matin. Elles sont au bout de l'allée 3.",
+            "es-MX": "¡Claro! Nos llegó un lote fresco esta mañana. Están al final del pasillo 3.",
+            "es-ES": "¡Por supuesto! Nos ha llegado un lote fresco esta mañana. Están al final del pasillo 3.",
+            "th-TH": "มีแน่นอนครับ/ค่ะ! เพิ่งได้รับของสดมาเช้านี้เองครับ/ค่ะ อยู่ที่ปลายช่องทางเดินที่ 3 ครับ/ค่ะ"
+          }
+        },
+        {
+          "id": 5,
+          "speaker": "customer",
+          "text": {
+            "en-US": "Great, thanks! Oh, and where's the olive oil?",
+            "fr-FR": "Super, merci ! Oh, et où est l'huile d'olive ?",
+            "es-MX": "¡Genial, gracias! Ah, ¿y dónde está el aceite de oliva?",
+            "es-ES": "¡Estupendo, gracias! Ah, ¿y dónde está el aceite de oliva?",
+            "th-TH": "เยี่ยมเลยครับ/ค่ะ ขอบคุณครับ/ค่ะ! อ้อ แล้วน้ำมันมะกอกอยู่ตรงไหนครับ/คะ?"
+          }
+        },
+        {
+          "id": 6,
+          "speaker": "employee",
+          "text": {
+            "en-US": "The olive oil is in aisle 5, with other cooking oils. Anything else I can help you find?",
+            "fr-FR": "L'huile d'olive est dans l'allée 5, avec les autres huiles de cuisine. Autre chose que je peux vous aider à trouver ?",
+            "es-MX": "El aceite de oliva está en el pasillo 5, con otros aceites para cocinar. ¿Algo más que pueda ayudarte a encontrar?",
+            "es-ES": "El aceite de oliva está en el pasillo 5, con otros aceites de cocina. ¿Hay algo más en lo que pueda ayudarle?",
+            "th-TH": "น้ำมันมะกอกอยู่ที่ช่องทางเดินที่ 5 ครับ/ค่ะ อยู่กับน้ำมันปรุงอาหารอื่นๆ มีอะไรให้ช่วยหาอีกไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 7,
+          "speaker": "customer",
+          "text": {
+            "en-US": "I think that's all. Where are the checkout counters?",
+            "fr-FR": "Je pense que c'est tout. Où sont les caisses ?",
+            "es-MX": "Creo que es todo. ¿Dónde están las cajas?",
+            "es-ES": "Creo que eso es todo. ¿Dónde están las cajas?",
+            "th-TH": "คิดว่าครบแล้วครับ/ค่ะ เคาน์เตอร์คิดเงินอยู่ตรงไหนครับ/คะ?"
+          }
+        },
+        {
+          "id": 8,
+          "speaker": "employee",
+          "text": {
+            "en-US": "The checkout counters are at the front of the store. Have a great day!",
+            "fr-FR": "Les caisses sont à l'avant du magasin. Passez une bonne journée !",
+            "es-MX": "Las cajas están en la parte delantera de la tienda. ¡Que tengas un buen día!",
+            "es-ES": "Las cajas están en la parte delantera de la tienda. ¡Que tenga un buen día!",
+            "th-TH": "เคาน์เตอร์คิดเงินอยู่ที่ด้านหน้าร้านครับ/ค่ะ ขอให้เป็นวันที่ดีนะครับ/คะ!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cafe-restaurant",
+      "title": "Ordering at a Café",
+      "location": "Café / Restaurant",
+      "level": "A2",
+      "languagePairs": [
+        {
+          "source": "en-US",
+          "target": "fr-FR",
+          "name": "English (US) to French (France)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "fr-FR-DeniseNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "es-MX",
+          "name": "English (US) to Spanish (Mexico)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "es-MX-DaliaNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "es-ES",
+          "name": "English (US) to Spanish (Spain)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "es-ES-ElviraNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "th-TH",
+          "name": "English (US) to Thai (Thailand)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "th-TH-PremwadeeNeural"
+        }
+      ],
+      "messages": [
+        {
+          "id": 1,
+          "speaker": "customer",
+          "text": {
+            "en-US": "Hi there! Can I see the menu, please?",
+            "fr-FR": "Bonjour ! Puis-je voir le menu, s'il vous plaît ?",
+            "es-MX": "¡Hola! ¿Me puede dar la carta, por favor?",
+            "es-ES": "¡Hola! ¿Me puede traer la carta, por favor?",
+            "th-TH": "สวัสดีครับ/ค่ะ ขอดูเมนูหน่อยได้ไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 2,
+          "speaker": "waiter",
+          "text": {
+            "en-US": "Of course! Here you go. Today's special is grilled salmon.",
+            "fr-FR": "Bien sûr ! Voici. Le plat du jour est le saumon grillé.",
+            "es-MX": "¡Claro! Aquí tiene. El especial de hoy es salmón a la parrilla.",
+            "es-ES": "¡Por supuesto! Aquí tiene. El plato del día es salmón a la plancha.",
+            "th-TH": "ได้เลยครับ/ค่ะ นี่ครับ/ค่ะ เมนูพิเศษวันนี้คือปลาแซลมอนย่างครับ/ค่ะ"
+          }
+        },
+        {
+          "id": 3,
+          "speaker": "customer",
+          "text": {
+            "en-US": "That sounds good. What sides come with it?",
+            "fr-FR": "Ça a l'air bon. Quels accompagnements sont servis avec ?",
+            "es-MX": "Suena bien. ¿Qué guarniciones trae?",
+            "es-ES": "Suena bien. ¿Qué guarnición lleva?",
+            "th-TH": "ฟังดูน่าอร่อยนะครับ/ค่ะ มีเครื่องเคียงอะไรบ้างครับ/คะ?"
+          }
+        },
+        {
+          "id": 4,
+          "speaker": "waiter",
+          "text": {
+            "en-US": "It comes with steamed vegetables and rice. Would you like to order that?",
+            "fr-FR": "Il est servi avec des légumes vapeur et du riz. Voulez-vous commander ça ?",
+            "es-MX": "Viene con verduras al vapor y arroz. ¿Le gustaría ordenar eso?",
+            "es-ES": "Viene con verduras al vapor y arroz. ¿Quiere pedirlo?",
+            "th-TH": "มาพร้อมกับผักนึ่งและข้าวครับ/ค่ะ คุณต้องการสั่งอันนี้ไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 5,
+          "speaker": "customer",
+          "text": {
+            "en-US": "Yes, I'll have that. Can I also get a glass of white wine?",
+            "fr-FR": "Oui, je vais prendre ça. Puis-je aussi avoir un verre de vin blanc ?",
+            "es-MX": "Sí, me llevo eso. ¿También puedo pedir una copa de vino blanco?",
+            "es-ES": "Sí, tomaré eso. ¿Puedo pedir también una copa de vino blanco?",
+            "th-TH": "ครับ/ค่ะ ขอสั่งอันนั้นครับ/ค่ะ แล้วขอไวน์ขาวสักแก้วได้ไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 6,
+          "speaker": "waiter",
+          "text": {
+            "en-US": "Certainly. Our house white wine pairs well with the salmon. Is that okay?",
+            "fr-FR": "Certainement. Notre vin blanc maison se marie bien avec le saumon. Ça vous convient ?",
+            "es-MX": "Claro. Nuestro vino blanco de la casa combina bien con el salmón. ¿Está bien?",
+            "es-ES": "Por supuesto. Nuestro vino blanco de la casa marida muy bien con el salmón. ¿Le parece bien?",
+            "th-TH": "ได้ครับ/ค่ะ ไวน์ขาวของทางร้านเข้ากันดีกับปลาแซลมอนครับ/ค่ะ คุณต้องการแบบนั้นไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 7,
+          "speaker": "customer",
+          "text": {
+            "en-US": "That's perfect. Oh, and where's the restroom?",
+            "fr-FR": "C'est parfait. Oh, et où sont les toilettes ?",
+            "es-MX": "Perfecto. Ah, y ¿dónde está el baño?",
+            "es-ES": "Perfecto. Ah, y ¿dónde está el aseo?",
+            "th-TH": "ดีเลยครับ/ค่ะ อ้อ แล้วห้องน้ำอยู่ทางไหนครับ/คะ?"
+          }
+        },
+        {
+          "id": 8,
+          "speaker": "waiter",
+          "text": {
+            "en-US": "The restroom is down the hall to your left. I'll be back with your order soon.",
+            "fr-FR": "Les toilettes sont au bout du couloir à gauche. Je reviendrai bientôt avec votre commande.",
+            "es-MX": "El baño está al fondo del pasillo a su izquierda. Volveré pronto con su orden.",
+            "es-ES": "El aseo está al fondo del pasillo a su izquierda. Enseguida le traigo su pedido.",
+            "th-TH": "ห้องน้ำอยู่ตามทางเดินไปทางซ้ายมือครับ/ค่ะ เดี๋ยวผม/ดิฉันจะนำอาหารมาเสิร์ฟให้เร็วๆ นี้ครับ/ค่ะ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "public-transportation",
+      "title": "Taking the Bus",
+      "location": "Public Transportation (Bus Stop)",
+      "level": "A2",
+      "languagePairs": [
+        {
+          "source": "en-US",
+          "target": "fr-FR",
+          "name": "English (US) to French (France)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "fr-FR-DeniseNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "es-MX",
+          "name": "English (US) to Spanish (Mexico)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "es-MX-DaliaNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "es-ES",
+          "name": "English (US) to Spanish (Spain)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "es-ES-ElviraNeural"
+        },
+        {
+          "source": "en-US",
+          "target": "th-TH",
+          "name": "English (US) to Thai (Thailand)",
+          "sourceVoice": "en-US-JennyNeural",
+          "targetVoice": "th-TH-PremwadeeNeural"
+        }
+      ],
+      "messages": [
+        {
+          "id": 1,
+          "speaker": "passenger",
+          "text": {
+            "en-US": "Excuse me, does this bus go downtown?",
+            "fr-FR": "Excusez-moi, ce bus va-t-il au centre-ville ?",
+            "es-MX": "Disculpe, ¿este camión va al centro?",
+            "es-ES": "Perdone, ¿este autobús va al centro?",
+            "th-TH": "ขอโทษครับ/ค่ะ รถเมล์คันนี้ไปในเมืองไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 2,
+          "speaker": "bus-driver",
+          "text": {
+            "en-US": "Yes, it does. Where are you heading?",
+            "fr-FR": "Oui, c'est le cas. Où allez-vous ?",
+            "es-MX": "Sí, va para allá. ¿A dónde vas?",
+            "es-ES": "Sí, va al centro. ¿Adónde se dirige?",
+            "th-TH": "ใช่ครับ/ค่ะ คุณจะไปไหนครับ/คะ?"
+          }
+        },
+        {
+          "id": 3,
+          "speaker": "passenger",
+          "text": {
+            "en-US": "I'm going to the Central Library. Which stop should I get off at?",
+            "fr-FR": "Je vais à la Bibliothèque Centrale. À quel arrêt dois-je descendre ?",
+            "es-MX": "Voy a la Biblioteca Central. ¿En qué parada debo bajarme?",
+            "es-ES": "Voy a la Biblioteca Central. ¿En qué parada tengo que bajarme?",
+            "th-TH": "ผม/ดิฉันจะไปห้องสมุดกลางครับ/ค่ะ ควรลงป้ายไหนครับ/คะ?"
+          }
+        },
+        {
+          "id": 4,
+          "speaker": "bus-driver",
+          "text": {
+            "en-US": "Get off at Central Square. I'll announce it.",
+            "fr-FR": "Descendez à la Place Centrale. Je l'annoncerai.",
+            "es-MX": "Bájate en la Plaza Central. Yo avisaré.",
+            "es-ES": "Bájese en la Plaza Central. Yo avisaré.",
+            "th-TH": "ลงที่จัตุรัสกลางครับ/ค่ะ ผม/ดิฉันจะประกาศให้ทราบครับ/ค่ะ"
+          }
+        },
+        {
+          "id": 5,
+          "speaker": "passenger",
+          "text": {
+            "en-US": "Great, thanks! How much is the fare?",
+            "fr-FR": "Super, merci ! Combien coûte le trajet ?",
+            "es-MX": "¡Genial, gracias! ¿Cuánto cuesta el pasaje?",
+            "es-ES": "¡Estupendo, gracias! ¿Cuánto cuesta el billete?",
+            "th-TH": "ดีเลยครับ/ค่ะ ขอบคุณครับ/ค่ะ! ค่าโดยสารเท่าไหร่ครับ/คะ?"
+          }
+        },
+        {
+          "id": 6,
+          "speaker": "bus-driver",
+          "text": {
+            "en-US": "It's $2.50. Cash or transit card.",
+            "fr-FR": "C'est 2,50 €. Espèces ou carte de transport.",
+            "es-MX": "Son 50 pesos. Efectivo o tarjeta de transporte.",
+            "es-ES": "Son 2,50 euros. Efectivo o tarjeta de transporte.",
+            "th-TH": "30 บาทครับ/ค่ะ จ่ายด้วยเงินสดหรือบัตรโดยสารครับ/ค่ะ"
+          }
+        },
+        {
+          "id": 7,
+          "speaker": "passenger",
+          "text": {
+            "en-US": "I only have a $5 bill. Can you make change?",
+            "fr-FR": "J'ai seulement un billet de 5 €. Pouvez-vous me faire la monnaie ?",
+            "es-MX": "Solo tengo un billete de 100 pesos. ¿Puede darme cambio?",
+            "es-ES": "Solo tengo un billete de 5 euros. ¿Puede darme cambio?",
+            "th-TH": "ผม/ดิฉันมีแต่แบงก์ 100 บาทครับ/ค่ะ มีทอนไหมครับ/คะ?"
+          }
+        },
+        {
+          "id": 8,
+          "speaker": "bus-driver",
+          "text": {
+            "en-US": "Yes, here's your change and ticket. Please take a seat.",
+            "fr-FR": "Oui, voici votre monnaie et votre ticket. Veuillez vous asseoir.",
+            "es-MX": "Sí, aquí está tu cambio y boleto. Por favor, toma asiento.",
+            "es-ES": "Sí, aquí tiene su cambio y billete. Por favor, tome asiento.",
+            "th-TH": "ได้ครับ/ค่ะ นี่คือเงินทอนและตั๋วของคุณ กรุณานั่งครับ/ค่ะ"
+          }
+        }
+      ]
+    }
+  ]
+}
+  
